@@ -1,0 +1,20 @@
+{
+	"name": "tiny-effect",
+	"module": "index.ts",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"prepare": "effect-language-service patch"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.3.8",
+		"@effect/language-service": "^0.62.0",
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5"
+	},
+	"dependencies": {
+		"effect": "^3.19.10"
+	}
+}
